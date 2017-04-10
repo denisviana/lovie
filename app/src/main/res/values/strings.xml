@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lovie</string>
+    <string name="filtrar">FILTRAR:</string>
+    <string name="popular">Popular</string>
+    <string name="avaliacao">Avaliação</string>
+    <string name="favoritos">Favoritos</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
