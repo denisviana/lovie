@@ -88,7 +88,7 @@ public class AdapterGridFilmes extends RecyclerView.Adapter<RecyclerView.ViewHol
         switch (getItemViewType(position)){
             case ITEM:
                 MyViewHolder holderFilme = (MyViewHolder) holder;
-                holderFilme.avaliacao.setText(filme.getAvaliacao());
+                holderFilme.avaliacao.setText(filme.getAvaliacao()+"/10");
                 Picasso.with(this.inflater.getContext())
                         .load(PATH_POSTER+filme.getPosterPath())
                         .into(holderFilme.poster_filme);

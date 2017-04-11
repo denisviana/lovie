@@ -131,7 +131,13 @@ public class DetalhesActivity extends AppCompatActivity implements MVP.IDetalhes
                 .load("https://image.tmdb.org/t/p/w500"+filme.getBackDropPath())
                 .into(capaFilme);
         tituloFilme.setText(filme.getTitulo());
-        dataLancamento.setText(filme.getDataLancamento());
+
+        String data = filme.getDataLancamento();
+        String ano = data.substring(0,4);
+        String mes = data.substring(5,7);
+        String dia = data.substring(8,10);
+
+        dataLancamento.setText(dia+"/"+mes+"/"+ano);
         avaliacao.setText(filme.getAvaliacao()+"/10");
         overView.setText(filme.getOverview());
 
