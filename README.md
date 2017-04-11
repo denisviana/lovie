@@ -25,5 +25,10 @@ Realm é uma biblioteca poderosa para fazer persistência no Android, e suporta 
 - Picasso 2.5.2: http://square.github.io/picasso/
 Também biblioteca da Square, o Picasso foi utlizado para fazer a manipulação das imagens que são recebidas nas chamadas da API. E também é permite uma implementação muito simples.
 
+<p align="center">
+  <img src="https://github.com/dennisviana/lovie/blob/master/images/image1.jpeg" width="350"/>
+  <img src="https://github.com/dennisviana/lovie/blob/master/images/image2.jpeg" width="350"/>
+</p>
+
 
 
